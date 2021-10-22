@@ -53,9 +53,9 @@ static struct Config config = {
  * If you do not want to set a key binding, keep it with the value of
  * XK_VoidSymbol
  */
-#define KSYMFIRST   XK_VoidSymbol       /* select first item */
+#define KSYMFIRST   XK_g                /* select first item */
 #define KSYMLAST    XK_VoidSymbol       /* select last item */
-#define KSYMUP      XK_VoidSymbol       /* select previous item */
-#define KSYMDOWN    XK_VoidSymbol       /* select next item */
-#define KSYMLEFT    XK_VoidSymbol       /* close current menu */
-#define KSYMRIGHT   XK_VoidSymbol       /* enter selected item */
+#define KSYMUP      XK_k                /* select previous item */
+#define KSYMDOWN    XK_j                /* select next item */
+#define KSYMLEFT    XK_h                /* close current menu */
+#define KSYMRIGHT   XK_l                /* enter selected item */
