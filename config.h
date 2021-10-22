@@ -3,12 +3,12 @@ static struct Config config = {
 	.font = "monospace:size=9,DejaVuSansMono:size=9",
 
 	/* colors */
-	.background_color = "#FFFFFF",
-	.foreground_color = "#2E3436",
-	.selbackground_color = "#3584E4",
+	.background_color = "#0F111A",
+	.foreground_color = "#8F93A2",
+	.selbackground_color = "#717CB4",
 	.selforeground_color = "#FFFFFF",
-	.separator_color = "#CDC7C2",
-	.border_color = "#E6E6E6",
+	.separator_color = "#090B10",
+	.border_color = "#0F111A",
 
 	/* sizes in pixels */
 	.width_pixels = 130,        /* minimum width of a menu */
